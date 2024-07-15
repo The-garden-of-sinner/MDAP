@@ -1,0 +1,8 @@
+embedding_size: 64
+base_model: NeuMF
+mlp_hidden_size: [64, 64]
+dropout_prob: 0.2
+alpha: 0.1
+learning_rate: 0.0005
+weight_decay: 0
+scorer: 'inner_product'

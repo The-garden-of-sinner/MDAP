@@ -1,0 +1,13 @@
+mlp_hidden_size: [200]          # (list of int) The MLP hidden layer.
+latent_dimension: 64           # (int) The latent dimension of auto-encoder.
+learning_rate: 1e-3
+use_user_loader: true
+
+dropout_prob: 0.7               # (float) The drop out probability of input.
+kfac: 16                       # (int) Number of facets (macro concepts).
+nogb: false                     # (bool) Whether to disable Gumbel-Softmax sampling.
+nobinarize: true
+tau: 0.1                        # (float) Temperature of sigmoid/softmax, in (0,oo).
+tau_source: 0.1                        # (float) Temperature of sigmoid/softmax, in (0,oo).
+tau_target: 0.1                        # (float) Temperature of sigmoid/softmax, in (0,oo).
+reg_weights: [0.0, 0.0 , 0.1]         # (list of float) L2 regularization weights.  
