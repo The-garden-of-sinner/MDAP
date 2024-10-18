@@ -1,5 +1,6 @@
 
 # Implement of WISE submission
+[Paper Release](https://arxiv.org/abs/2410.05877)
 
 Our model file is in `recbole_cdr/model/cross_domain_recommender/mdap.py`
 
